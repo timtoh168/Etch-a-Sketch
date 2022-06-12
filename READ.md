@@ -1,0 +1,1 @@
+This project is a culmination of simple Javascript, HTML, and CSS to replicate a drawing board.

@@ -1,0 +1,45 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 700px;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.row{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    flex: auto;
+}
+
+.cell{
+    display: flex;
+    background-color: grey;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    flex: auto;
+    font-size: 5px;
+}
+
+.hovered {
+    background-color: blue;
+}
+
+.darker {
+    filter: brightness(90%);
+}
